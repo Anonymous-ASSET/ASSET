@@ -1,4 +1,7 @@
-# Datasets
+# ASSET
+The repository includes the following three folders:
+1. The folder Datasets includes the benchmark datasets used in our paper;
+2. The folder Source Code includes the source code of ASSET and all CPDP baselines (DMDAJFR, BurakMHD, CTDP, 3SW-MSTL, and DBN-CP);
+3. The folder Experiemnt Results includes the detailed experimental results of 4 RQs and discussions;
 
-1. AEEEM, PROMISE, and ReLink are three groups of benchmark datasets used in our paper.
-2. RQ1, RQ2, RQ3, and RQ4 include the detailed statistics of the experiment results in terms of three perfromance measures (i.e., AUC, MCC, and Popt20%).
+If you have any question about ASSET, do not hesitate to contact me (hntong@bjtu.edu.cn) or describe your question in Issues.

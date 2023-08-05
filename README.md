@@ -23,5 +23,8 @@ The repository includes the following three folders:
     [source,featureNamesSrc,sourceNDX,stringVals,relationName1] = weka2matlab(insts,[]); %{false,true}-->{0,1}, 'source' is a mat file (i.e., the dataset EQ);
 
 ### Deatiled experimental results of RQ1/2/3/4:
-* Under the folder 'Experiemnt Result/RQ1,2,3', there are two excel files named AUC_Statistic and MCC_Statistic. They include the experiemntal results of 200 combinations based on the benckmark datasets in terms of AUC and MCC, respectively.
-* In each excel file, the first colum is the name of each combination (e.g., EQ)
+* Under the folder 'Experiemnt Result/RQ1,2,3/', there are two excel files named AUC_Statistic and MCC_Statistic. They include the experiemntal results of 200 combinations based on the benckmark datasets in terms of AUC and MCC, respectively.
+* In each excel file, the first colum is the name of each combination (e.g., EQ_JDT, where EQ is the source dataset, JDT is the target dataset). The second column is performance of ASSET, and the rest is the performance of baselines.
+* Note that the performance is in percentage (%).
+* Under the folder 'Experiemnt Result/RQ4/', there are two subfolders named '10%' and '5%', which include the experiemntal results of 200 combinations when 10% taregt instances being used as the training target dataset and when 5% target instances being used as the training target dataset, respectively.
+   

@@ -23,4 +23,4 @@ The repository includes the following three folders:
     [source,featureNamesSrc,sourceNDX,stringVals,relationName1] = weka2matlab(insts,[]); %{false,true}-->{0,1}, 'source' is a mat file (i.e., the dataset EQ);
 
 ### Deatiled experimental results of RQ1/2/3/4:
-
+* Under the folder 'Experiemnt Result/RQ1,2,3', there are two excel files names AUC_Statistic and MCC_Statistic, respectively. They include the experiemntal results of 200 combinations based on the benckmark datasets in terms of AUC and MCC, respectively.  

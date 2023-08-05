@@ -12,3 +12,6 @@ The repository includes the following three folders:
 
 ## Introduction
 ### The method to load dataset
+1. Add the specified directory or jar file to the current dynamic Java path of MATLAB;
+   E.g., javaaddpath('E:/Program Files/weka.jar');
+2. Use the following code to load a .arff file:

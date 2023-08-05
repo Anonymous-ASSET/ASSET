@@ -27,4 +27,13 @@ The repository includes the following three folders:
 * In each excel file, the first colum is the name of each combination (e.g., EQ_JDT, where EQ is the source dataset, JDT is the target dataset). The second column is performance of ASSET, and the rest is the performance of baselines.
 * Note that the performance is in percentage (%).
 * Under the folder 'Experiemnt Result/RQ4/', there are two subfolders named '10%' and '5%', which include the experiemntal results of 200 combinations when 10% taregt instances being used as the training target dataset and when 5% target instances being used as the training target dataset, respectively.
+
+
+### The results of AUC for sensitivity analysis
+* Owing to the space limitation, in the Section 'Sensitivity Analysis', we just present the experiemntal results in terms of MCC. In fact, the same conclusions as the result of MCC can be found in the result of AUC.
+* The result of AUC when fixing alpha and best, and changing the value of N1 anf N2 is presented as follows:
+  ![The effect of N1 and N2 on the performance of ASSET in terms of AUC](Experiment Results/Sensitivity Analysis/3DGrid_AUC_N1_N2.pdf)
+* The result of AUC when fixing N1 anf N2, and changing the value of alpha and best is presented as follows:
+  ![The effect of alpha and beta on the performance of ASSET in terms of AUC](Experiment Results/Sensitivity Analysis/3DGrid_AUC_alpha_beta.pdf)
+
    

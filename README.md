@@ -32,9 +32,7 @@ The repository includes the following three folders:
 ### The results of AUC for sensitivity analysis
 * Owing to the space limitation, in the Section 'Sensitivity Analysis', we just present the experiemntal results in terms of MCC. In fact, the same conclusions as the result of MCC can be found in the result of AUC.
 * The result of AUC when fixing alpha and best, and changing the value of N1 anf N2 is presented as follows:
-  ![The effect of N1 and N2 on the performance of ASSET in terms of AUC](https://github.com/Anonymous-ASSET/ASSET/Experiment20%Results/Sensitivity20%Analysis/3DGrid_AUC_N1_N2.jpg)
-  ![](https://github.com/Anonymous-ASSET/ASSET/blob/main/Experiment%20Results/Sensitivity%20Analysis/3DGrid_AUC_N1_N2.jpg)
+  ![The effect of N1 and N2 on the performance of ASSET in terms of AUC](https://github.com/Anonymous-ASSET/ASSET/blob/main/Experiment%20Results/Sensitivity%20Analysis/3DGrid_AUC_N1_N2.jpg)
 * The result of AUC when fixing N1 anf N2, and changing the value of alpha and best is presented as follows:
-  ![The effect of alpha and beta on the performance of ASSET in terms of AUC](https://github.com/Anonymous-ASSET/ASSET/Experiment20%Results/Sensitivity20%Analysis/3DGrid_AUC_alpha_beta.jpg)
-  ![](https://github.com/Anonymous-ASSET/ASSET/blob/main/Experiment%20Results/Sensitivity%20Analysis/3DGrid_AUC_N1_N2.jpg)
+  ![The effect of alpha and beta on the performance of ASSET in terms of AUC](https://github.com/Anonymous-ASSET/ASSET/blob/main/Experiment%20Results/Sensitivity%20Analysis/3DGrid_AUC_N1_N2.jpg)
    

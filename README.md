@@ -15,3 +15,12 @@ The repository includes the following three folders:
 1. Add the specified directory or jar file to the current dynamic Java path of MATLAB;
    E.g., javaaddpath('E:/Program Files/weka.jar');
 2. Use the following code to load a .arff file:
+    file1 = java.io.File('E:\Datasets\AEEEM\EQ.arff'); % The path of EQ.arff is 'E:\Datasets\AEEEM\';
+    loader = weka.core.converters.ArffLoader;  % create an ArffLoader object
+    loader.setFile(file1);  % using ArffLoader to load data in file .arff
+    insts = loader.getDataSet; % get an Instances object
+    insts.setClassIndex(insts.numAttributes()-1); %  set the index of class label
+    [source,featureNamesSrc,sourceNDX,stringVals,relationName1] = weka2matlab(insts,[]); %{false,true}-->{0,1}, 'source' is a mat file (i.e., the dataset EQ);
+
+### Deatiled experimental results of RQ1/2/3/4:
+

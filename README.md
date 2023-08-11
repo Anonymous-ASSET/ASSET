@@ -34,5 +34,5 @@ The repository includes the following three folders:
  * The result of AUC when fixing alpha and best, and changing the value of N1 anf N2 is presented as follows:
   ![The effect of N1 and N2 on the performance of ASSET in terms of AUC](https://github.com/Anonymous-ASSET/ASSET/blob/main/Experiment%20Results/Sensitivity%20Analysis/3DGrid_AUC_N1_N2.jpg)
  * The result of AUC when fixing N1 anf N2, and changing the value of alpha and best is presented as follows:
-  ![The effect of alpha and beta on the performance of ASSET in terms of AUC](https://github.com/Anonymous-ASSET/ASSET/blob/main/Experiment%20Results/Sensitivity%20Analysis/3DGrid_AUC_N1_N2.jpg)
+  ![The effect of alpha and beta on the performance of ASSET in terms of AUC](https://github.com/Anonymous-ASSET/ASSET/blob/main/Experiment%20Results/Sensitivity%20Analysis/3DGrid_AUC_alpha_beta.jpg)
    
